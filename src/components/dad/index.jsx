@@ -43,7 +43,7 @@ const CountdownTimer = ({ deadline = "2026-02-11" }) => {
           <span className="" id="hours">
             {timeLeft.hours}
           </span>{" "}
-          hours
+          hoursSSSS
         </div>
         <div className="wrapper flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
           <span className="" id="minutes">
