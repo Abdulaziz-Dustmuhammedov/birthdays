@@ -1,0 +1,19 @@
+/*  */
+
+.wrapper-older-brother {
+  background-color: #1ed3b5;
+  color: #ffffff;
+}
+
+@media (max-width: 775px) {
+  .wrapper-older-brother {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 445px) {
+  .title {
+    font-size: 25px;
+  }
+}

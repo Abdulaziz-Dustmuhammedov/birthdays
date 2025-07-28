@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
 
-const Father = ({ deadline = "2026-02-11" }) => {
+const EldestBrother = ({ deadline = "2025-11-12" }) => {
   const getTimeRemaining = (endTime) => {
     const total = Date.parse(endTime) - Date.parse(new Date()),
       days = Math.floor(total / (1000 * 60 * 60 * 24)),
@@ -29,29 +29,29 @@ const Father = ({ deadline = "2026-02-11" }) => {
 
   return (
     <div className="timer text-center text-2xl font-bold mt-4">
-      <h1 className="title text-4xl my-20">"My father's birthday."</h1>
+      <h1 className="title text-4xl my-20">"My eldest brother's birthday"</h1>
       <div className="flex flex-col sm:flex-row m-auto items-center justify-center gap-2 mb-10 sm: mb-0">
         {/*  */}
 
-        <div className="wrapper flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
+        <div className="wrapper-eldest-brother flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
           <span className="" id="days">
             {timeLeft.days}
           </span>{" "}
           days
         </div>
-        <div className="wrapper flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
+        <div className="wrapper-eldest-brother flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
           <span className="" id="hours">
             {timeLeft.hours}
           </span>{" "}
           hours
         </div>
-        <div className="wrapper flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
+        <div className="wrapper-eldest-brother flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
           <span className="" id="minutes">
             {timeLeft.minutes}
           </span>{" "}
           minutes
         </div>
-        <div className="wrapper flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
+        <div className="wrapper-eldest-brother flex flex-col items-center justify-center w-45 h-40 rounded-xl text-3xl">
           <span className="" id="seconds">
             {timeLeft.seconds}
           </span>{" "}
@@ -62,7 +62,7 @@ const Father = ({ deadline = "2026-02-11" }) => {
   );
 };
 
-export default Father;
+export default EldestBrother;
 
 // import React from "react";
 // import "./index.css";

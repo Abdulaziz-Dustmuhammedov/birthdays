@@ -1,3 +1,5 @@
+wrapper-eldest-brother
+
 /*  */
 .promotion__timer {
   display: flex;
@@ -35,16 +37,15 @@
 .promotion__timer .title {
   font-size: 40px;
   color: #383848;
-  /* margin-bottom: 10px; */
 }
 
-.wrapper {
-  background-color: #4245ec;
-  color: #f1e7e7;
+.wrapper-eldest-brother {
+  background-color: #14d324;
+  color: #ffffff;
 }
 
 @media (max-width: 775px) {
-  .wrapper {
+  .wrapper-eldest-brother {
     width: 150px;
     height: 150px;
   }

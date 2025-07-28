@@ -1,0 +1,17 @@
+.wrapper-sister {
+  background-color: #d81761;
+  color: #ffffff;
+}
+
+@media (max-width: 775px) {
+  .wrapper-sister {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 445px) {
+  .title {
+    font-size: 25px;
+  }
+}
